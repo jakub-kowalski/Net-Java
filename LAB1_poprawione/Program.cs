@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab1
+namespace LAB1_poprawione
 {
     internal class Program
     {
@@ -17,8 +18,8 @@ namespace lab1
             int numItems = int.Parse(Console.ReadLine());
 
             //Stworzenie obiektów
-            Random random = new Random(1); 
-            Backpack backpack = new Backpack(capacity); 
+            Random random = new Random(1);
+            Backpack backpack = new Backpack(capacity);
 
             //Wypisanie listy wygenerowanych przedmiotów
             Console.WriteLine("Wygenerowane przedmioty:");

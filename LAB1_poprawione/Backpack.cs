@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab1
+namespace LAB1_poprawione
 {
     internal class Backpack
     {
@@ -25,7 +26,7 @@ namespace lab1
         }
 
         //Metoda służąca do znajdowania rozwiązania problemu dla przedmiotów w danym plecaku
-        public int [] Solve()
+        public int[] Solve()
         {
             //Sortowanie przedmiotów w kolejności malejacej ich stosunku wartoości do wagi
             //Porównywane są sąsiednie elementy i na tej podstawie przesuwane w jedną lub drugą stronę
@@ -40,10 +41,6 @@ namespace lab1
                 {
                     weightSum += item.weight;
                     valueSum += item.value;
-                }
-                else
-                {
-                    break;
                 }
             }
             //Zwracam tablicę z rozwiązaniem
