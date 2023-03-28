@@ -14,6 +14,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: InternalsVisibleTo("UnitTestProject1")]
+[assembly: InternalsVisibleTo("LAB1okienko")]
 
 // Ustawienie elementu ComVisible na wartość false sprawia, że typy w tym zestawie są niewidoczne
 // dla składników COM. Jeśli potrzebny jest dostęp do typu w tym zestawie z
